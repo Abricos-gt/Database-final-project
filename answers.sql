@@ -215,10 +215,4 @@ INSERT INTO book_copies (book_id, copy_number, acquisition_date, status) VALUES
 (3, 1, '2023-01-05', 'Available'),
 (4, 1, '2023-04-15', 'Under Maintenance');
 
--- Display table creation confirmation
-SELECT 
-    TABLE_NAME, 
-    TABLE_ROWS as 'Estimated Rows'
-FROM information_schema.TABLES 
-WHERE TABLE_SCHEMA = 'library_management'
-ORDER BY TABLE_NAME;
+ 
